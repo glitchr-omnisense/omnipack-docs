@@ -5,7 +5,7 @@ order: 10
 
 # The back office's manual
 
-With omnibase/admin installed, `/docs` shows the documentation inside the
+With omnipack/admin installed, `/docs` shows the documentation inside the
 back office: the page tree and the page's headings in a rail beside the
 text, and a search palette (Ctrl K) that matches in the browser.
 

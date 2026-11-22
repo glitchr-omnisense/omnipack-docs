@@ -1,8 +1,8 @@
 ---
-title: omnibase/docs
+title: omnipack/docs
 ---
 
-# omnibase/docs
+# omnipack/docs
 
 The documentation of a site, read from Markdown files. A page is a file:
 it is written, reviewed and versioned with the code it describes, and no
@@ -10,7 +10,7 @@ editor, no table and no migration stands between the file and the reader.
 
 | | Where | For whom |
 |---|---|---|
-| [The back office's manual](back-office.md) | `/docs`, inside omnibase/admin | the people who run the site |
+| [The back office's manual](back-office.md) | `/docs`, inside omnipack/admin | the people who run the site |
 | [Public manuals](manuals.md) | `/docs/<package>/<version>/<page>` | everyone: one manual per package, one version per branch |
 | [Search](search.md) | a palette on every page, `/docs/_search` | Typesense, or the pages' own index |
 
@@ -38,7 +38,7 @@ controllers and commands are under `src/Bridge/Symfony`): see
 
 | Package | Adds |
 |---|---|
-| omnibase/admin | the back office's manual |
+| omnipack/admin | the back office's manual |
 | glitchr/typesense-bundle | the search in Typesense |
 | tempest/highlight (PHP 8.4) | code blocks coloured on the server |
 | symfony/process, and the `git` binary | `wikidoc:sync`: the versions that are not checked out |

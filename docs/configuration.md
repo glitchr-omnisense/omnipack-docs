@@ -7,7 +7,7 @@ order: 60
 
 `config/packages/wikidoc.yaml`, as `Base\Wikidoc\Bridge\Symfony\DependencyInjection\WikidocConfiguration`
 declares it (`bin/console config:dump-reference wikidoc` in the core's harness, this
-checkout mounted over `vendor/omnibase/docs`):
+checkout mounted over `vendor/omnipack/docs`):
 
 ```yaml
 wikidoc:

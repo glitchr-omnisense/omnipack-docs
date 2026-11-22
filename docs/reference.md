@@ -17,7 +17,7 @@ order: 70
 | `wikidoc_manual` | `/<public.path>/{path}` | GET | the same | |
 
 `<public.path>` is `wikidoc.public.path` (`docs`). The back office's controller is
-registered only when omnibase/admin is installed (it renders in its layout, with
+registered only when omnipack/admin is installed (it renders in its layout, with
 its `AdminContext` and `MenuBuilder`); the public one only with
 `wikidoc.public.enabled`. Both share `/docs` by default: a site that publishes its
 manuals and has the back office's manual gives `public.path` another value, or

@@ -1,9 +1,9 @@
-# omnibase/docs
+# omnipack/docs
 
 The documentation of a site, read from Markdown files: nothing is kept in a
 database, a page is a file, versioned with the code it describes.
 
-- **A manual in the back office** (`/docs`, with omnibase/admin): the
+- **A manual in the back office** (`/docs`, with omnipack/admin): the
   bundle's and the application's pages, the application overriding the
   bundle's by path, a search palette.
 - **Public manuals**, the way symfony.com/doc publishes its own: one manual
@@ -19,7 +19,7 @@ The public manuals and the engine are off until a site asks for them: a site
 that only has the back office's manual changes nothing.
 
 ```sh
-composer require omnibase/docs
+composer require omnipack/docs
 ```
 
 Under Symfony it runs on the core's Symfony host: Composer brings `omnisense/omnibase` 7.0 and
@@ -32,7 +32,7 @@ Base\Wikidoc\WikidocBundle::class => ['all' => true],
 ```
 
 A first page: a Markdown file under the application's `docs/` is read by the back office's
-manual at `/docs` (with omnibase/admin); without the framework, the snippet below renders it.
+manual at `/docs` (with omnipack/admin); without the framework, the snippet below renders it.
 
 The bundle's namespace and its configuration key are still `Wikidoc`
 (`Base\Wikidoc\`, `wikidoc:`), from the package it was before.
